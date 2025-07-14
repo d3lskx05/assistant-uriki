@@ -1,8 +1,8 @@
 import streamlit as st
 from utils import load_all_excels, semantic_search, keyword_search
 
-st.set_page_config(page_title="Проверка фраз ЮЛ", layout="centered")
-st.title("🤖 Проверка фраз ЮЛ")
+st.set_page_config(page_title="Тест Проверка фраз ЮЛ", layout="centered")
+st.title("🤖 Тест Проверка фраз ЮЛ")
 
 @st.cache_data
 def get_data():
